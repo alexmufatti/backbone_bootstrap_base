@@ -1,0 +1,12 @@
+{
+  "name": "Backbone testApp",
+  "version": "0.1.0",
+  "dependencies": {
+    "requirejs": "latest",
+    "jquery": "latest",
+    "backbone-amd": "latest",
+    "underscore-amd": "latest",
+    "requirejs-text":"latest",
+    "bootstrap":"latest"
+  }
+}

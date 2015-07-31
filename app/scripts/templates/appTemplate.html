@@ -1,0 +1,30 @@
+<a href='#play/video/<%= id %>' rel="tooltip" title="<%- title %>" class="media-title">
+
+    <h4 class="title span11"><%- title %></h4>
+
+  <span class="item-is-playing playing-<%= isPlaying %>">
+      <i class="icon-play"></i>Now Playing
+    </span>
+
+    <div class="thumbnail">
+      <img src="<%= thumbnail.hqDefault %>" alt="">
+    </div>
+
+</a>
+
+<div class="item-actions">
+  <span class="item-action"><i class="icon-time"></i> <%= time %></span>
+
+  <button class="item-action media-desc pull-right" type="button">
+    <i class="icon-info-sign"></i>
+  </button>
+
+  <span class="item-likes" rel="tooltip" title="">
+    <i class="icon-thumbs-up"></i><%= likeCountDisplay %>
+  </span>
+
+</div>
+
+<p class="description">
+	<%- description %>
+</p>
